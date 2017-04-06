@@ -19,8 +19,9 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
 		// membuka xml main.xml
         setContentView(R.layout.main);
-	
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		
+	    //home bar icon
+		getSupportActionBar().setDisplayHomeAsUpEnabled(false);
 		// aktif true false mati titel bar
 		getSupportActionBar().setDisplayShowTitleEnabled(true);
 		
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		
-		// Inflate menu mznizar
+		// atas ane menu mznizar
 		getMenuInflater().inflate(R.menu.menu, menu);
 		return true;
 	}

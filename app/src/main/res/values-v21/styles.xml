@@ -3,9 +3,9 @@
 	<!-- Base application theme. -->
 	<style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
 		<!-- Customize your theme here. -->
-		<item name="colorPrimary">@color/indigo_500</item>
-		<item name="colorPrimaryDark">@color/indigo_700</item>
-		<item name="colorAccent">@color/cyan_500</item>
+		<item name="colorPrimary">@color/kimcil</item>
+		<item name="colorPrimaryDark">@color/kimcil2</item>
+		<item name="colorAccent">@color/zzz</item>
 		<item name="android:windowContentOverlay">@null</item>
 	</style>
 
